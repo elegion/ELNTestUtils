@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.authors		   = "."
   s.license		   = "."
   s.homepage     = "."
+  s.frameworks   = "XCTest"
   
 end
