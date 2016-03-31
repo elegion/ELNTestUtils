@@ -1,0 +1,14 @@
+PODS:
+  - ELNTestUtils (0.0.0)
+
+DEPENDENCIES:
+  - ELNTestUtils (from `../`)
+
+EXTERNAL SOURCES:
+  ELNTestUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ELNTestUtils: 45a94ce8e7fdbce8d4a6b3b97f7399f96ce5fbd7
+
+COCOAPODS: 0.39.0
