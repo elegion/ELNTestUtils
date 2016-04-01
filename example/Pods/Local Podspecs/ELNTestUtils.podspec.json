@@ -1,18 +1,17 @@
 {
   "name": "ELNTestUtils",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "summary": "e-Legion asynchronous testing utilities",
+  "homepage": "https://github.com/elegion/ios-ELNTestUtils",
+  "authors": ".",
+  "license": "MIT",
   "platforms": {
     "ios": "7.0"
   },
   "source": {
     "git": "https://github.com/elegion/ios-ELNTestUtils.git",
-    "tag": "v0.0.0"
+    "tag": "v0.0.1"
   },
-  "source_files": "lib",
-  "requires_arc": true,
-  "summary": "e-Legion asynchronous testing utilities",
-  "authors": ".",
-  "license": "MIT",
-  "homepage": "https://github.com/elegion/ios-ELNTestUtils",
+  "source_files": "Source/**/*",
   "frameworks": "XCTest"
 }

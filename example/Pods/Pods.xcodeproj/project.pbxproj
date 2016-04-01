@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025684B88E83F6F63784DA894D499C56 /* XCTestCase+ELNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C877BE471D7A786D4AE199E6C59CEE /* XCTestCase+ELNHelpers.m */; };
-		191CEEED76E46A00F8155C9DD93A4994 /* XCTestCase+ELNHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = CA050BB57D90A8B8238BE62C01689010 /* XCTestCase+ELNHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		025684B88E83F6F63784DA894D499C56 /* XCTestCase+ELNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E54214B9F6038FBB283FF135A8D6A25F /* XCTestCase+ELNHelpers.m */; };
+		191CEEED76E46A00F8155C9DD93A4994 /* XCTestCase+ELNHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C6CA21609464B1A30B619598FB6B64 /* XCTestCase+ELNHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BA41D8939961AB6986E1FB0B6F222A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		57AAAAD719356AAB337639A408314D46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */; };
-		90D5E3409A2E405EC9A38C5E99A672E6 /* ELNTestUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1550D467FB2FE96FD08FF861EE8F16 /* ELNTestUtils-dummy.m */; };
+		90D5E3409A2E405EC9A38C5E99A672E6 /* ELNTestUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F06999BF58F38D6B07CE727121CE0 /* ELNTestUtils-dummy.m */; };
 		E9230BB8DC881479071621294DBC1BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		FADD7D9706D2940E4F8969A08A9B2678 /* Pods-testutilsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27BFDED4EF64374FC3979A891460B1 /* Pods-testutilsTests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -27,23 +27,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022F06999BF58F38D6B07CE727121CE0 /* ELNTestUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNTestUtils-dummy.m"; sourceTree = "<group>"; };
 		075E9F3CCDAC955F93F37B3A46E0E934 /* Pods-testutilsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testutilsTests.release.xcconfig"; sourceTree = "<group>"; };
 		279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		27EE7FD74A3A4AA396FC5E4033F005B2 /* ELNTestUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNTestUtils.xcconfig; sourceTree = "<group>"; };
 		451AD6DAB7E54D8257AD1FC70B694FF6 /* Pods-testutilsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testutilsTests-resources.sh"; sourceTree = "<group>"; };
 		4D27BFDED4EF64374FC3979A891460B1 /* Pods-testutilsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testutilsTests-dummy.m"; sourceTree = "<group>"; };
 		53B384510160835D11FC0C4AF4B56A43 /* libPods-testutilsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testutilsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5733123215FF686C02F018D6B51E98C3 /* Pods-testutilsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testutilsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		69C0BF486C551FC003629D0CF08D1E5C /* Pods-testutilsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testutilsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9E1550D467FB2FE96FD08FF861EE8F16 /* ELNTestUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNTestUtils-dummy.m"; sourceTree = "<group>"; };
-		A4C877BE471D7A786D4AE199E6C59CEE /* XCTestCase+ELNHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+ELNHelpers.m"; sourceTree = "<group>"; };
-		B09D6D4F3887123803A99B1BDF984E92 /* ELNTestUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNTestUtils-prefix.pch"; sourceTree = "<group>"; };
+		6E8D9D648E7B0533D2A3EFBDDAFE9BCE /* ELNTestUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNTestUtils-prefix.pch"; sourceTree = "<group>"; };
+		91C6CA21609464B1A30B619598FB6B64 /* XCTestCase+ELNHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+ELNHelpers.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA7D355F0110CB0661F9F0F76FC484C4 /* libELNTestUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNTestUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA050BB57D90A8B8238BE62C01689010 /* XCTestCase+ELNHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+ELNHelpers.h"; sourceTree = "<group>"; };
 		DD56F7B3B03FA373FE3B58F7B6259338 /* Pods-testutilsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testutilsTests-frameworks.sh"; sourceTree = "<group>"; };
 		E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E54214B9F6038FBB283FF135A8D6A25F /* XCTestCase+ELNHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+ELNHelpers.m"; sourceTree = "<group>"; };
 		F4FF5116759C8EFBA08C41F8724BCDEA /* Pods-testutilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testutilsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA505CE15FE50E077017C342B6DF092B /* ELNTestUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNTestUtils.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +76,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		22C08484C982D701CC1C5D5EB4BCD14A /* lib */ = {
+		1AF4FF1FAB7FC49103A061A27E11C526 /* ELNTestUtils */ = {
 			isa = PBXGroup;
 			children = (
-				CA050BB57D90A8B8238BE62C01689010 /* XCTestCase+ELNHelpers.h */,
-				A4C877BE471D7A786D4AE199E6C59CEE /* XCTestCase+ELNHelpers.m */,
+				C75B20E6D720F9699C0F1B08F666AAFA /* Source */,
+				47FDA1929B3581872AD0D1DC01AB9C91 /* Support Files */,
 			);
-			path = lib;
+			name = ELNTestUtils;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -91,6 +92,17 @@
 				0C6B012983F9FEF8CC65C1318F5F090C /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47FDA1929B3581872AD0D1DC01AB9C91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA505CE15FE50E077017C342B6DF092B /* ELNTestUtils.xcconfig */,
+				022F06999BF58F38D6B07CE727121CE0 /* ELNTestUtils-dummy.m */,
+				6E8D9D648E7B0533D2A3EFBDDAFE9BCE /* ELNTestUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ELNTestUtils";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -104,16 +116,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		BE0DD5F89D586CB29911AAAE7E3C3FD8 /* ELNTestUtils */ = {
-			isa = PBXGroup;
-			children = (
-				22C08484C982D701CC1C5D5EB4BCD14A /* lib */,
-				EBB6CBB3AF926A6D3E300CD28A08EA1C /* Support Files */,
-			);
-			name = ELNTestUtils;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C097C62D8AAF1FAE740F38710958A38F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +123,15 @@
 				53B384510160835D11FC0C4AF4B56A43 /* libPods-testutilsTests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C75B20E6D720F9699C0F1B08F666AAFA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				91C6CA21609464B1A30B619598FB6B64 /* XCTestCase+ELNHelpers.h */,
+				E54214B9F6038FBB283FF135A8D6A25F /* XCTestCase+ELNHelpers.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		D177BA0629E2B1BC7D99826A7B58E67F /* Targets Support Files */ = {
@@ -134,7 +145,7 @@
 		E47418F8E3D9D997A87B2938A62960C2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BE0DD5F89D586CB29911AAAE7E3C3FD8 /* ELNTestUtils */,
+				1AF4FF1FAB7FC49103A061A27E11C526 /* ELNTestUtils */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -152,17 +163,6 @@
 			);
 			name = "Pods-testutilsTests";
 			path = "Target Support Files/Pods-testutilsTests";
-			sourceTree = "<group>";
-		};
-		EBB6CBB3AF926A6D3E300CD28A08EA1C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27EE7FD74A3A4AA396FC5E4033F005B2 /* ELNTestUtils.xcconfig */,
-				9E1550D467FB2FE96FD08FF861EE8F16 /* ELNTestUtils-dummy.m */,
-				B09D6D4F3887123803A99B1BDF984E92 /* ELNTestUtils-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "example/Pods/Target Support Files/ELNTestUtils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +272,7 @@
 /* Begin XCBuildConfiguration section */
 		3539244F96BB3D08A35DD56AA713D4EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27EE7FD74A3A4AA396FC5E4033F005B2 /* ELNTestUtils.xcconfig */;
+			baseConfigurationReference = FA505CE15FE50E077017C342B6DF092B /* ELNTestUtils.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNTestUtils/ELNTestUtils-prefix.pch";
@@ -329,7 +329,7 @@
 		};
 		BC7219053DCEB22C6C1F2FCAC2370191 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27EE7FD74A3A4AA396FC5E4033F005B2 /* ELNTestUtils.xcconfig */;
+			baseConfigurationReference = FA505CE15FE50E077017C342B6DF092B /* ELNTestUtils.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNTestUtils/ELNTestUtils-prefix.pch";

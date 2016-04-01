@@ -1,5 +1,5 @@
 PODS:
-  - ELNTestUtils (0.0.0)
+  - ELNTestUtils (0.0.1)
 
 DEPENDENCIES:
   - ELNTestUtils (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ELNTestUtils: 45a94ce8e7fdbce8d4a6b3b97f7399f96ce5fbd7
+  ELNTestUtils: 2f5d8ae8fb8f1ecca6cf6c14baa897e05c356cc6
 
 COCOAPODS: 0.39.0

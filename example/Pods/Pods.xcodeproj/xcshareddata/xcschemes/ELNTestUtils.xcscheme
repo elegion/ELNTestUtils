@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6EC58E4960287A8C25F548CC'
+               BlueprintIdentifier = 'FF044582072CBA0F3F649C35'
                BlueprintName = 'ELNTestUtils'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libELNTestUtils.a'>
