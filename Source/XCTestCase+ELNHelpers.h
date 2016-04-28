@@ -6,11 +6,16 @@
 
 #import <XCTest/XCTest.h>
 
-typedef void (^ELNTestExpectationBlock)(XCTestExpectation * _Nonnull expectation);
+NS_ASSUME_NONNULL_BEGIN
+
+typedef void (^ELNTestExpectationBlock)(XCTestExpectation * expectation);
 
 @interface XCTestCase (ELNHelpers)
 
-- (void)eln_expectationWithDescription:(NSString * _Nonnull)description timeout:(NSTimeInterval)timeout block:(__nonnull ELNTestExpectationBlock)block;
-- (void)eln_expectationWithDescription:(NSString * _Nonnull)description timeout:(NSTimeInterval)timeout block:(__nonnull ELNTestExpectationBlock)block completion:(__nullable XCWaitCompletionHandler)completion;
+- (void)eln_expectationWithDescription:(NSString *)description timeout:(NSTimeInterval)timeout block:(ELNTestExpectationBlock)block;
+- (void)eln_expectationWithDescription:(NSString *)description timeout:(NSTimeInterval)timeout block:(ELNTestExpectationBlock)block completion:(nullable XCWaitCompletionHandler)completion;
 
 @end
+
+NS_ASSUME_NONNULL_END
+
